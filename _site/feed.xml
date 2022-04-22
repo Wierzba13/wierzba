@@ -1,1 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/wierzba/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/wierzba/" rel="alternate" type="text/html" /><updated>2022-04-22T23:24:42+02:00</updated><id>http://localhost:4000/wierzba/feed.xml</id><title type="html">Wierzba</title><subtitle>Luźny blog o programowaniu i rzeczach z nim związanych :D</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/wierzba/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/wierzba/" rel="alternate" type="text/html" /><updated>2022-04-23T00:14:36+02:00</updated><id>http://localhost:4000/wierzba/feed.xml</id><title type="html">Wierzba</title><subtitle>Luźny blog o programowaniu i rzeczach z nim związanych :D</subtitle><entry><title type="html">Hello World</title><link href="http://localhost:4000/wierzba/java/2022/04/22/Hello-World.html" rel="alternate" type="text/html" title="Hello World" /><published>2022-04-22T00:00:00+02:00</published><updated>2022-04-22T00:00:00+02:00</updated><id>http://localhost:4000/wierzba/java/2022/04/22/Hello-World</id><content type="html" xml:base="http://localhost:4000/wierzba/java/2022/04/22/Hello-World.html"><![CDATA[<p>Przykladowy wyglad posta</p>
+
+<h2 id="ordered--unordered--ordered">Ordered – Unordered – Ordered</h2>
+
+<ol>
+  <li>ordered item</li>
+  <li>ordered item
+    <ul>
+      <li><strong>unordered</strong></li>
+      <li><strong>unordered</strong></li>
+    </ul>
+    <ol>
+      <li>ordered item</li>
+      <li>ordered item</li>
+    </ol>
+  </li>
+  <li>ordered item</li>
+  <li>ordered item</li>
+</ol>
+
+<h2 id="ordered--unordered--unordered">Ordered – Unordered – Unordered</h2>
+
+<ol>
+  <li>ordered item</li>
+  <li>ordered item
+    <ul>
+      <li><strong>unordered</strong></li>
+      <li><strong>unordered</strong></li>
+    </ul>
+    <ul>
+      <li>unordered item</li>
+      <li>unordered item</li>
+    </ul>
+  </li>
+  <li>ordered item</li>
+  <li>ordered item</li>
+</ol>
+
+<h2 id="unordered--ordered--unordered">Unordered – Ordered – Unordered</h2>
+
+<ul>
+  <li>unordered item</li>
+  <li>unordered item
+    <ol>
+      <li>ordered</li>
+      <li>ordered
+        <ul>
+          <li>unordered item</li>
+          <li>unordered item</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>unordered item</li>
+  <li>unordered item</li>
+</ul>
+
+<h2 id="unordered--unordered--ordered">Unordered – Unordered – Ordered</h2>
+
+<ul>
+  <li>unordered item</li>
+  <li>unordered item
+    <ul>
+      <li>unordered</li>
+      <li>unordered
+        <ol>
+          <li><strong>ordered item</strong></li>
+          <li><strong>ordered item</strong></li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>unordered item</li>
+  <li>unordered item</li>
+</ul>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Hello, World!"</span><span class="o">);</span> 
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Java" /><category term="content" /><category term="java" /><category term="markup" /><summary type="html"><![CDATA[Przykladowy wyglad posta]]></summary></entry></feed>
