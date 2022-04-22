@@ -26,4 +26,5 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 
 remote_theme: fongandrew/hydeout
-disqus:  shortname: wierzba
+disqus:  
+  shortname: wierzba
