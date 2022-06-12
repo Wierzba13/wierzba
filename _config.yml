@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Wierzba
 tagline:          'blog o programowaniu'
-description:      'Luźny blog o programowaniu i rzeczach z nim związanych :D'
+description:      'Luźny blog techniczny, glównie o programowaniu :D'
 url:              https://wierzba13.github.io/
 baseurl:          '/wierzba'
                   # the optional subpath of your site, e.g. "/blog"
@@ -14,9 +14,14 @@ baseurl:          '/wierzba'
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
 
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
 plugins:
   - jekyll-feed
   - jekyll-gist
+  - jekyll-paginate
 
 # Sidebar link settings
 sidebar_home_link:  true
@@ -28,3 +33,10 @@ sidebar_home_link:  true
 remote_theme: fongandrew/hydeout
 disqus:  
   shortname: wierzba
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+    span:
+      line_numbers: true

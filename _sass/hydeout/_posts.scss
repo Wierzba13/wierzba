@@ -19,10 +19,10 @@
   color: $heading-color;
 }
 
-h2.post-title,
-h2.page-title {
-  font-size: 2rem;
-}
+// h2.post-title,
+// h2.page-title {
+//   font-size: 2rem;
+// }
 
 .post-tags a {
   font-size: 0.8em;
@@ -90,4 +90,18 @@ article + *,
 
 button.disqus-load {
   margin-top: 1em;
+}
+
+/*
+  MY STYLES
+*/
+
+.post-body {
+  font-size: 95%;
+}
+.index-last__blogs-header {
+  display: block;
+}
+table.rouge-table {
+  width: auto;
 }

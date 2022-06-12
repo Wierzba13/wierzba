@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/wierzba/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/wierzba/" rel="alternate" type="text/html" /><updated>2022-04-23T00:14:36+02:00</updated><id>http://localhost:4000/wierzba/feed.xml</id><title type="html">Wierzba</title><subtitle>Luźny blog o programowaniu i rzeczach z nim związanych :D</subtitle><entry><title type="html">Hello World</title><link href="http://localhost:4000/wierzba/java/2022/04/22/Hello-World.html" rel="alternate" type="text/html" title="Hello World" /><published>2022-04-22T00:00:00+02:00</published><updated>2022-04-22T00:00:00+02:00</updated><id>http://localhost:4000/wierzba/java/2022/04/22/Hello-World</id><content type="html" xml:base="http://localhost:4000/wierzba/java/2022/04/22/Hello-World.html"><![CDATA[<p>Przykladowy wyglad posta</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/wierzba/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/wierzba/" rel="alternate" type="text/html" /><updated>2022-06-12T17:11:43+02:00</updated><id>http://localhost:4000/wierzba/feed.xml</id><title type="html">Wierzba</title><subtitle>Luźny blog techniczny, glównie o programowaniu :D</subtitle><entry><title type="html">Hello World</title><link href="http://localhost:4000/wierzba/java/2022/04/22/Hello-World.html" rel="alternate" type="text/html" title="Hello World" /><published>2022-04-22T00:00:00+02:00</published><updated>2022-04-22T00:00:00+02:00</updated><id>http://localhost:4000/wierzba/java/2022/04/22/Hello-World</id><content type="html" xml:base="http://localhost:4000/wierzba/java/2022/04/22/Hello-World.html"><![CDATA[<p>Przykladowy wyglad posta</p>
 
 <h2 id="ordered--unordered--ordered">Ordered – Unordered – Ordered</h2>
 
@@ -74,9 +74,20 @@
   <li>unordered item</li>
 </ul>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
+<div class="code-header">
+    <button class="copy-code-button">
+        Kopiuj do schowka
+    </button>
+</div>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
     <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
         <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Hello, World!"</span><span class="o">);</span> 
     <span class="o">}</span>
 <span class="o">}</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="Java" /><category term="content" /><category term="java" /><category term="markup" /><summary type="html"><![CDATA[Przykladowy wyglad posta]]></summary></entry></feed>
+</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name></name></author><category term="Java" /><category term="content" /><category term="java" /><category term="markup" /><summary type="html"><![CDATA[Przykladowy wyglad posta]]></summary></entry></feed>

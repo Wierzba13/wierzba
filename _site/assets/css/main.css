@@ -356,8 +356,6 @@ body { background-attachment: fixed; background-color: #202020; background-image
 
 .page-title, .post-title, .post-title a { color: #313131; }
 
-h2.post-title, h2.page-title { font-size: 2rem; }
-
 .post-tags a { font-size: 0.8em; margin-right: 0.5rem; opacity: 0.75; white-space: nowrap; }
 
 .post-tags a .tag-name { text-transform: capitalize; }
@@ -383,6 +381,13 @@ article + * > h2:first-child, article + * > h3:first-child, .post-body ~ section
 .post .content li + li, .page .content li + li { margin-top: 0.25rem; }
 
 button.disqus-load { margin-top: 1em; }
+
+/* MY STYLES */
+.post-body { font-size: 95%; }
+
+.index-last__blogs-header { display: block; }
+
+table.rouge-table { width: auto; }
 
 /* Pagination Super lightweight (HTML-wise) blog pagination. Should only be visible when there is navigation available -- single buttons at top or bottom of each page. */
 .pagination { color: #ccc; margin-bottom: 2rem; text-align: center; }
